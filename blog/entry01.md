@@ -6,7 +6,7 @@
 
 <h1>Source</h1>
 <p>Trading is essentially the buying and selling of financial assets, such as stocks, currencies, or commodities, with the goal of making a profit. There are different styles of trading depending on how quickly you want to buy and sell. For example, scalping involves making very fast trades, often within minutes, to take advantage of small price changes. <strong>Day trading is when all your trades are completed within a single day which is also called Short-Term Assests.</strong> <strong>For people who prefer to hold onto assets a little longer, swing trading allows traders to keep their investments for several days or weeks to profit from larger price movements.</strong> Lastly, position trading is more like investing, where traders hold onto assets for months or even years which is also called Long-Term Assest. Each of these methods requires different levels of risk and time commitment, making trading a versatile option for people with different goals and strategies.</p>
-<h3><a href="https://en.wikipedia.org/wiki/Short-term_trading">Short-Term Assest</a></h3>
+<h3><a href="https://en.wikipedia.org/wiki/Short-term_trading">Short-Term Assests</a></h3>
 <h3><a href="https://en.wikipedia.org/wiki/Long_(finance)">Long-Term Assets</a></h3>
 
 <h1>Engineering Design Process</h1>
