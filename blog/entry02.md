@@ -38,6 +38,6 @@ Staying Updated with News: Reading financial news has become a daily habit. I fo
 <br>
 <h2>Professionalism</h2>
 One of the most important lessons I’ve learned is how important it is to be professional when trading. This means sticking to a plan and always doing my research before making a trade. Being professional also means keeping track of my trades and learning from mistakes. It’s important to take trading seriously, even when I’m practicing, because this is how I’ll develop good habits that will help me when I start trading with real money.
-[Previous](entry01.md) | [Next](entry03.md)
+
 
 [Home](../README.md)
