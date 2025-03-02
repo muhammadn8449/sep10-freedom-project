@@ -17,4 +17,4 @@ I chose to explore Aframe, which is an awesome open source framwork for creating
 <li>Another green plane serving as the ground, rotated -90 0 0, with a height of 20 and a width of 20.</li>
 </ul>
 
-<img src=""
+<img src="(https://github.com/user-attachments/assets/16d9d058-6fa5-4197-b76b-9313f1cd94da)">
