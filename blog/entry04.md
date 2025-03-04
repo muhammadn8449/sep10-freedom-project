@@ -18,3 +18,7 @@ I chose to explore Aframe, which is an awesome open source framwork for creating
 </ul>
 
 <a href="https://github.com/user-attachments/assets/16d9d058-6fa5-4197-b76b-9313f1cd94da">Image</a>
+
+### Source: 
+<p>I watched a youtube video to learn how to use A-frame, which provided a visual and practical introduction to the Framework. Additionally, I explored it's platform by going into the Docs section, where I tried out their sample code and learned through hands-on experimentation</p>
+Youtube Link: <a href="https://www.youtube.com/watch?v=jhEfT9YjLcU">Easily code a virtual reality web experience with A-Frame</a></li>
