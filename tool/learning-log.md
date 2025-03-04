@@ -5,8 +5,10 @@
 ---
 
 ### X/X/XX:
-* <h4>WWatched the full video - <a href="https://www.youtube.com/watch?v=jhEfT9YjLcU"></a> <h4>
+* Text
 
+### X/X/XX:
+* Text
 
 
 <!--
