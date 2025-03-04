@@ -17,6 +17,8 @@
   <li>I changed the background color from white to black and changed the plane color from white to green.</li>
 </ol>
 
+<a href="https://github.com/user-attachments/assets/16d9d058-6fa5-4197-b76b-9313f1cd94da">Image</a>
+
 <h1>Challenges</h1>
 <p>The most challenging thing is basically adding the right size shape onto another shape. For example, I want to make a snowman. Every circle shape I add, the size has to be reduced, which is very painful to do because you have to play around with the number for a decent quite of time until you get the exact measurement.</p>
 <br>
