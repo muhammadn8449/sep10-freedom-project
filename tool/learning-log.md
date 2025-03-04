@@ -1,16 +1,27 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Aframe**
 
 ---
 
-### X/X/XX:
-* Text
+### 03/03/2025:
+<h1>Links</h1>
+<ul>
+<li>Watched this whole video about Aframe: <a href="https://www.youtube.com/watch?v=jhEfT9YjLcU">Easily code a virtual reality web experience with A-Frame</a></li>
+<li>Website: <a href="https://aframe.io/">Aframe</a></li>
+</ul>
+<br>
+<h1>Things I Tried</h1>
+<ol>
+  <li>I copied the code from their documents to get started with something, and shapes and white plane appeard</li>
+  <li>I changed the background color from white to black and changed the plane color from white to green.</li>
+</ol>
 
-### X/X/XX:
-* Text
-
-
+<h1>Challenges</h1>
+<p>The most challenging thing is basically adding the right size shape onto another shape. For example, I want to make a snowman. Every circle shape I add, the size has to be reduced, which is very painful to do because you have to play around with the number for a decent quite of time until you get the exact measurement.</p>
+<br>
+<h1>Try Next:</h1>
+<p>The next thing I will try to make is candle sticks because Trading is what my topic will be about. So probably make candle sticks and technical analysis of other markets.</p>
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
