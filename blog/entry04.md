@@ -22,3 +22,15 @@ I chose to explore Aframe, which is an awesome open source framwork for creating
 ### Source: 
 <p>I watched a youtube video to learn how to use A-frame, which provided a visual and practical introduction to the Framework. Additionally, I explored it's platform by going into the Docs section, where I tried out their sample code and learned through hands-on experimentation</p>
 Youtube Link: <a href="https://www.youtube.com/watch?v=jhEfT9YjLcU">Easily code a virtual reality web experience with A-Frame</a></li>
+
+### Skills:
+<h3>3D Graphics & Design skills:</h3>
+<ul>
+  <li>This skill I developed helped me be bring virtual worlds to life by postioning ans shaping objects in a 3D space. Learning how to use shadows, ligthing, textures, and materials makes scenes more realistic.</li>
+</ul>
+<br>
+<h3>Virtual Reality Development skill:</h3>
+<ul>
+  <li>This skill I developed focuses on making VR experiences interactuve and engaging. Understanding camera controls and user interactions help create realistic movement andd responses. </li>
+</ul>
+
