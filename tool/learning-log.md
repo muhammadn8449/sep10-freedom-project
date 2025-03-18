@@ -24,6 +24,12 @@
 <br>
 <h1>Try Next:</h1>
 <p>The next thing I will try to make is candle sticks because Trading is what my topic will be about. So probably make candle sticks and technical analysis of other markets.</p>
+________________________________________________________________________________________________________________________
+<br>
+Log 2 - MISSED
+________________________________________________________________________________________________________________________
+<br>
+03/17/25
 
 <!--
 * Links you used today (websites, videos, etc)
