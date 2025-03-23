@@ -28,9 +28,15 @@ ________________________________________________________________________________
 <br>
 Log 2 - MISSED
 ________________________________________________________________________________________________________________________
-<br>
 03/17/25
-
+<br>
+### Watches this video today - <a href="https://www.youtube.com/watch?v=v6mpIq-OcRs&pp=ygUOQWZyYW1lIHRyYWRpbmc%3D">Aframe 2</a>
+<br>
+### I tried creating candle sticks for my chart, and adjustuing their heights, and size and shape.
+<br>
+ ### The challenges part was that it wasn't easy to create a background trading platorm. And yet I still haven't done it. 
+<br>
+### Next: I will be try to create the background platfiorm and a indicator.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
