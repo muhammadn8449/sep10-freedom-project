@@ -31,6 +31,8 @@ ________________________________________________________________________________
 <br>
 03/17/25
 
+Watched this video today
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
