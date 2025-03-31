@@ -38,19 +38,8 @@ ________________________________________________________________________________
 <br>
  <h2>The challenges part was that it wasn't easy to create a background trading platorm. And yet I still haven't done it.</h2>
 <br>
-<<<<<<< HEAD
 ### Next: I will be try to create the background platfiorm and a indicator.
 
-________________________________________________________________________________________________________________________
-03/24/25
-
-=======
-<h2>Next: I will be try to create the background platfiorm and a indicator.</h2>
-________________________________________________________________________________________________________________________
-<br>
-03/28/25
->>>>>>> c45e35e3b6273edbbb7268288752ffb80d777c35
-<br>
 
 <!--
 * Links you used today (websites, videos, etc)
