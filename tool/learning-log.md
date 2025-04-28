@@ -24,10 +24,10 @@
 <br>
 <h1>Try Next:</h1>
 <p>The next thing I will try to make is candle sticks because Trading is what my topic will be about. So probably make candle sticks and technical analysis of other markets.</p>
-________________________________________________________________________________________________________________________
+
+
 <br>
 Log 2 - MISSED
-________________________________________________________________________________________________________________________
 <br>
 03/17/25
 
@@ -38,19 +38,7 @@ ________________________________________________________________________________
 <br>
  <h2>The challenges part was that it wasn't easy to create a background trading platorm. And yet I still haven't done it.</h2>
 <br>
-<<<<<<< HEAD
 ### Next: I will be try to create the background platfiorm and a indicator.
-
-________________________________________________________________________________________________________________________
-03/24/25
-
-=======
-<h2>Next: I will be try to create the background platfiorm and a indicator.</h2>
-________________________________________________________________________________________________________________________
-<br>
-03/28/25
->>>>>>> c45e35e3b6273edbbb7268288752ffb80d777c35
-<br>
 
 <!--
 * Links you used today (websites, videos, etc)
