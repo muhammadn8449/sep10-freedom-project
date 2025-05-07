@@ -3,8 +3,69 @@
     padding: 10px; /* Optional: Add some padding */
 }
 
-.img1 {
+.flex-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    justify-content: space-between; /* Optional: Adds space between the text and image */
+}
+
+  .text {
+    width: 60%; /* Adjust based on your layout */
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.4;
+    margin-top: 30px;
+}
+
+  .image {
+    width: 35%; /* Adjust width as needed */
+    margin-right: 50px;
+}
+
+  .img1 {
+    width: 100%; /* Make image fit its container */
+    border: solid blue;
+}
+
+.overview {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.hardware{
     text-align: center;
+}
+
+ul{
+    text-align: center;
+    margin-left: 10px;
+    justify-content: space-between; /* Optional: Adds space between the text and image */
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.move1{
+    margin-left: 110px;
+}
+
+.hardware-img{
+    text-align: center;
+    margin-left: 400px;
+}
+
+.Platforms{
+    text-align: center;
+}
+
+.platform-img1{
+    margin-left: 20px;
+}
+
+.card1{
+    margin-left: 130px;
+}
+body {
+    background-color: linear-gradient( to bottom, rgba(255,0,0,0), #689497  )
 }
 
 
