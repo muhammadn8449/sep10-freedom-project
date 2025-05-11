@@ -1,7 +1,7 @@
 # Entry 6
-##### X/X/XX
+##### 5/11/25
 
-Text
+MVP
 
 [Previous](entry05.md) | [Next](entry07.md)
 
