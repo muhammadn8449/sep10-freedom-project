@@ -58,7 +58,7 @@ ul{
 }
 
 .platform-img1{
-    margin-left: 20px;
+    margin-right: 50px;
 }
 
 .card1{
@@ -66,6 +66,40 @@ ul{
 }
 body {
     background-color: linear-gradient( to bottom, rgba(255,0,0,0), #689497  )
+}
+
+.platform-img2{
+    margin-right: 50px;
+}
+
+.card2{
+    margin-left: 567px;
+    margin-top: -374px;
+}
+
+.platform-img3{
+    margin-left: 1000px:
+}
+
+.card3{
+    margin-left: 1000px;
+    margin-top: -518px;
+}
+
+.Software{
+    text-align: center;
+}
+
+.move2{
+    margin-left: 200px;
+}
+
+.software-img{
+    margin-left: 500px;
+}
+
+.Innovation{
+    text-align: center;
 }
 
 

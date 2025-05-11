@@ -27,7 +27,11 @@ Attaching colors that would be a good looking to the website.
 * Task
 
 Finish the coloring and all the other designs.
-As well as the fomating
+As well as the formating
+
+Add my tool
+
+Adding container or container fluid
 
 
 
