@@ -13,7 +13,8 @@ Tagesschrift = <link href="https://fonts.googleapis.com/css2?family=Tagesschrift
 ## Timeline
 Try to finish everything by May 5, if not, then ask for an extentsion
 #### MVP
-finsih as much as I can today
+Include text and Images
+Making sure if I click the link on the navbar, it would take me to that section
 Make an Img folder to store all my images
 Formating the text and the Images at the right place.
 * Task/Timeline - Cinco De Mayo

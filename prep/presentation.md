@@ -1,16 +1,18 @@
 # Presentation Plan
-
+* Starting with the general topic
 ## Hook
-* 
-
+* How Trading has changed in the past untill today
+* How does this system work
 ## Product
-* 
-
+* Requirments of hardwares
+* Requirments of Softwares
+* How does Hardware and Software has impact towards trading
 ## Process
-* 
+* Showing exmaples of how trading can be done easily and be profitable
 
 ## Conclusion
-* 
+* Banks and companies trading trillions of dollars every single day in the market
+* Why top companies invested in crypto
 
 <!-- EXAMPLE
 
