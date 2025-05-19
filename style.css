@@ -73,8 +73,8 @@ body {
 }
 
 .card2{
-    margin-left: 567px;
-    margin-top: -374px;
+    margin-left: 467px;
+    margin-top: -54px;
 }
 
 .platform-img3{
@@ -82,8 +82,8 @@ body {
 }
 
 .card3{
-    margin-left: 1000px;
-    margin-top: -518px;
+    margin-left: 550px;
+    margin-top: -438px;
 }
 
 .Software{
@@ -102,4 +102,17 @@ body {
     text-align: center;
 }
 
+a-scene {
+  height: 300px;
+  width: 600px;
+}
 
+.innovation-text{
+    margin-right: 800px;
+    margin-left: 100px;
+}
+
+iframe{
+    margin-left: 800px;
+    margin-top: -800px;
+}

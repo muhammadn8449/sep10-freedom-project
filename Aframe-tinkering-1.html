@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3D Trading Chart</title>
+    <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: monospace;
+      }
+
+      #controls, #status {
+        position: absolute;
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+      }
+
+      #controls {
+        top: 10px;
+        left: 10px;
+      }
+
+      #status {
+        top: 10px;
+        right: 10px;
+        text-align: right;
+      }
+
+      button {
+        margin: 5px;
+        padding: 10px 15px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Controls -->
+    <div id="controls">
+      <button onclick="placeOrder('buy')">Buy</button>
+      <button onclick="placeOrder('sell')">Sell</button>
+      <button onclick="closeTrade()">Close Trade</button>
+    </div>
+
+    <!-- Status -->
+    <div id="status">
+      💰 Balance: $<span id="balance">10000.00</span><br />
+      📈 Trade: <span id="openTrade">None</span><br />
+      💹 P/L: <span id="pl">0.00</span>
+    </div>
+
+    <!-- Scene -->
+    <a-scene>
+      <!-- Camera -->
+      <a-entity id="rig" movement-controls position="0 5 60">
+        <a-camera wasd-controls look-controls></a-camera>
+      </a-entity>
+
+      <!-- Lighting -->
+      <a-light type="ambient" color="#ccc"></a-light>
+      <a-light type="directional" position="0 20 10" intensity="1"></a-light>
+
+      <!-- Ground -->
+      <a-plane rotation="-90 0 0" width="500" height="500" color="#1a1a1a"></a-plane>
+
+      <!-- Chart container -->
+      <a-entity id="chart"></a-entity>
+    </a-scene>
+
+    <!-- Script -->
+    <script>
+      const chart = document.getElementById("chart");
+      const candles = [];
+      let basePrice = 5;
+      let candleIndex = 0;
+      let lastX = 0;
+
+      let balance = 10000;
+      let openTrade = null;
+
+      function updateUI() {
+        document.getElementById("balance").innerText = balance.toFixed(2);
+        document.getElementById("openTrade").innerText = openTrade
+          ? `${openTrade.type.toUpperCase()} ${openTrade.units} @ ${openTrade.entry}`
+          : "None";
+        document.getElementById("pl").innerText = openTrade
+          ? calcProfit(basePrice, openTrade).toFixed(2)
+          : "0.00";
+      }
+
+      function calcProfit(currentPrice, trade) {
+        const diff =
+          trade.type === "buy"
+            ? currentPrice - trade.entry
+            : trade.entry - currentPrice;
+        return diff * trade.units;
+      }
+
+      function addCandle() {
+        const open = basePrice;
+        const move = 0.5 + Math.pow(candleIndex / 10, 2) * 0.05 + Math.random() * 0.4;
+        const close = open + (Math.random() > 0.5 ? move : -move * 0.8);
+        const high = Math.max(open, close) + Math.random() * 0.3;
+        const low = Math.min(open, close) - Math.random() * 0.3;
+        basePrice = close;
+
+        candles.push({ open, close, high, low });
+
+        const scale = 4;
+        const color = close >= open ? "green" : "red";
+        const bodyHeight = Math.abs(close - open) * scale;
+        const bodyY = ((open + close) / 2) * scale;
+        const wickHeight = (high - low) * scale;
+        const wickY = ((high + low) / 2) * scale;
+        const x = candleIndex * 2;
+
+        // Candle body
+        const body = document.createElement("a-box");
+        body.setAttribute("position", `${x} ${bodyY} 0`);
+        body.setAttribute("height", bodyHeight);
+        body.setAttribute("width", 1);
+        body.setAttribute("depth", 1);
+        body.setAttribute("color", color);
+        chart.appendChild(body);
+
+        // Wick
+        const wick = document.createElement("a-box");
+        wick.setAttribute("position", `${x} ${wickY} 0`);
+        wick.setAttribute("height", wickHeight);
+        wick.setAttribute("width", 0.1);
+        wick.setAttribute("depth", 0.1);
+        wick.setAttribute("color", "white");
+        chart.appendChild(wick);
+
+        // Signals
+        if (candleIndex > 1) {
+          const prev = candles[candleIndex - 1];
+          if (close > prev.close * 1.08) {
+            drawSignal(x, high * scale + 1, "BUY", "lime");
+          } else if (close < prev.close * 0.92) {
+            drawSignal(x, high * scale + 1, "SELL", "red");
+          }
+        }
+
+        lastX = x;
+        candleIndex++;
+        updateUI();
+      }
+
+      function drawSignal(x, y, text, color) {
+        const label = document.createElement("a-text");
+        label.setAttribute("value", text);
+        label.setAttribute("color", color);
+        label.setAttribute("position", `${x} ${y} 0`);
+        label.setAttribute("align", "center");
+        label.setAttribute("scale", "2 2 2");
+        chart.appendChild(label);
+      }
+
+      function placeOrder(type) {
+        if (openTrade) {
+          alert("You already have an open trade!");
+          return;
+        }
+
+        const units = parseFloat(prompt(`Enter units to ${type.toUpperCase()}:`));
+        if (isNaN(units) || units <= 0) {
+          alert("Invalid units.");
+          return;
+        }
+
+        const entry = basePrice;
+        const x = lastX + 2;
+        const scale = 4;
+
+        // Entry marker
+        const entryBox = document.createElement("a-box");
+        entryBox.setAttribute("position", `${x} ${entry * scale} 0`);
+        entryBox.setAttribute("height", 0.2);
+        entryBox.setAttribute("width", 1.5);
+        entryBox.setAttribute("depth", 0.5);
+        entryBox.setAttribute("color", type === "buy" ? "lime" : "red");
+        chart.appendChild(entryBox);
+
+        // SL/TP markers
+        const sl = type === "buy" ? entry - 1.5 : entry + 1.5;
+        const tp = type === "buy" ? entry + 3 : entry - 3;
+        drawSignal(x, sl * scale, "SL", "orange");
+        drawSignal(x, tp * scale, "TP", "gold");
+
+        openTrade = { type, entry, units };
+        updateUI();
+      }
+
+      function closeTrade() {
+        if (!openTrade) {
+          alert("No open trade to close.");
+          return;
+        }
+
+        const profit = calcProfit(basePrice, openTrade);
+        balance += profit;
+        openTrade = null;
+        updateUI();
+        alert(`Trade closed. P/L: $${profit.toFixed(2)}`);
+      }
+
+      // Start chart
+      addCandle();
+      setInterval(addCandle, 5000);
+    </script>
+  </body>
+</html>
