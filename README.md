@@ -10,9 +10,12 @@ You use HTML to build the structure of a website by adding things like text, ima
 
 ## Links
 Tool: <a href="https://aframe.io/">A-Frame</a>
+Video: <a href="https://www.youtube.com/watch?v=v6mpIq-OcRs&pp=ygUOQWZyYW1lIHRyYWRpbmc%3D">Aframe Video</a></h2>
 
-
-[Product]()
+## [Product]():
+<br>
+<a href="https://github.com/muhammadn8449/sep10-freedom-project">URL TO THE CODE</a>
+<a href="https://muhammadn8449.github.io/sep10-freedom-project/">URL TO THE PREVIEW</a>
 
 [Presentation]()
 
