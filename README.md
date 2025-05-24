@@ -15,15 +15,21 @@ Video: <a href="https://www.youtube.com/watch?v=v6mpIq-OcRs&pp=ygUOQWZyYW1lIHRyY
 ## [Product]():
 <br>
 <a href="https://github.com/muhammadn8449/sep10-freedom-project">URL TO THE CODE</a>
+<br>
 <a href="https://muhammadn8449.github.io/sep10-freedom-project/">URL TO THE PREVIEW</a>
 
-[Presentation]()
+## [Presentation]()
+<a href="https://docs.google.com/presentation/d/12ik1KayvRuiaUAYHpi7YuHJANUD51MM9z96eAT13-3E/edit?slide=id.p#slide=id.p">Slides</a>
 
 ## Implications
 ##### PROS
-* 
+* Embeded aframe looks good
+* Format is great on computer size screen
+* Navbar is repsonive
+* Card looks good
 ##### CONS
-* 
+* It's not responsive when you put it on a phone size
+* Not colorful enough
 
 
 ## Blog
