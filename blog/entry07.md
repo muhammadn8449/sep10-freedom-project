@@ -41,3 +41,9 @@
   <li><a href="https://aframe.io/">Aframe</a></li>
   <li><a href="https://github.com/">Github</a></li>
 </ol>
+
+### EDP:
+Right now,  my website is working and we’ve finished the main parts. We showed it to the judges and the class, so it’s at a stage where people can use it and understand what it does. But we still want to make it better by fixing small issues and maybe adding some new features. We’re working on improving it based on the feedback we got, and then we hope to share it with more people soon.
+
+### Skills:
+Working on this website has helped me learn a lot of skills that I can use in other parts of life too. For example, presenting to the judges and my classmates helped me get better at talking about my ideas clearly. I also learned how to work better with my team and solve problems when things didn’t go as planned. Plus, managing my time so I could finish the project and prepare for the presentation was really helpful. And of course, I got better at web design and coding, which is cool for future projects.
